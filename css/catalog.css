@@ -1,0 +1,876 @@
+.catalog {
+    grid-area: catalog;
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(6, 245px);
+    grid-template-rows: 480px repeat(4, 228px);
+    grid-template-areas:
+    "section1 section1 section1 section1 section1 section1"
+    "section234 section234 section5 section5 section67 section67"
+    "section234 section234 section5 section5 section67 section67"
+    "section8 section8 section8 section8 section91011 section91011"
+    "section8 section8 section8 section8 section91011 section91011";
+}
+
+.catalog__section {
+    border-radius: 20px;
+}
+
+.catalog__section1 {
+    grid-area: section1;
+    position: relative;
+    background: url("../img/banner3.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.catalog__section1-slogan {
+    position: absolute;
+    top: 145px;
+    left: 112px;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.catalog__section1-title {
+    position: absolute;
+    top: 336px;
+    left: 823px;
+    font-size: 16px;
+}
+
+.catalog__section1-timing-wrapper {
+    position: absolute;
+    top: 362px;
+    left: 649px;
+    display: flex;
+    column-gap: 30px;
+    font-size: 32px;
+}
+
+.catalog__section1_timing-num {
+    font-size: 60px;
+}
+
+.catalog__section-wrapper-234 {
+    grid-area: section234;
+    display: grid;
+    gap: 43px 60px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 245px 228px;
+    grid-template-areas:
+    "section2 section3"
+    "section4 section4" ;
+}
+
+.catalog__section2 {
+    grid-area: section2;
+    position: relative;
+    background: url("../img/book.jpg") no-repeat;
+    background-size: contain;
+}
+
+.catalog__section2-slogan {
+    position: absolute;
+    max-width: 190px;
+    top: 90px;
+    left: 20px;
+    font-size: 30px;
+}
+
+.catalog__section2-book {
+    font-size: 40px;
+}
+
+.catalog__section3 {
+    grid-area: section3;
+    position: relative;
+    background: url("../img/clock.jpg") no-repeat;
+    background-size: contain;
+}
+
+.catalog__section3-slogan {
+    position: absolute;
+    top: 77px;
+    left: 14px;
+    font-size: 30px;
+}
+
+.catalog__section3-discount {
+    position: absolute;
+    background: url("../img/25.svg") no-repeat;
+    top: 130px;
+    left: 137px;
+    width: 88px;
+    height: 88px;
+}
+
+.catalog__section4 {
+    grid-area: section4;
+    position: relative;
+    background: url("../img/sneakerRed.jpg") no-repeat;
+}
+
+.catalog__section4-discount {
+    position: absolute;
+    background: url("../img/40.svg") no-repeat;
+    top: 20px;
+    left: 20px;
+    width: 88px;
+    height: 88px;
+}
+
+.catalog__section5 {
+    grid-area: section5;
+    justify-self: end;
+    position: relative;
+    width: 516px;
+    height: 516px;
+    background: url("../img/sneakersPair.jpg") no-repeat;
+    background-size: contain;
+}
+
+.catalog__section5-slogan {
+    position: absolute;
+    z-index: 1;
+    max-width: 435px;
+    top: 353px;
+    left: 41px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.catalog__section5-slogan--bigger {
+    font-size: 52px;
+    line-height: 130%;
+    font-weight: 700;
+}
+
+.catalog__section5-rectangle {
+    position: absolute;
+    top: 329px;
+    left: 20px;
+    width: 476px;
+    height: 167px;
+    background-color: #38c0eb;
+    border-radius: 20px;
+}
+
+.catalog__section-wrapper-67 {
+    grid-area: section67;
+    display: grid;
+    row-gap: 60px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 228px);
+    grid-template-areas:
+    "section6"
+    "section7";
+}
+
+.catalog__section6 {
+    grid-area: section6;
+    position: relative;
+    background: url("../img/gifts.jpg") no-repeat;
+    background-size: contain;
+}
+
+.catalog__section6-slogan {
+    position: absolute;
+    width: 340px;
+    font-size: 40px;
+    top: 94px;
+    left: 30px;
+}
+
+.catalog__section7 {
+    grid-area: section7;
+    position: relative;
+    background: url("../img/laptop.jpg") no-repeat;
+    background-size: contain;
+}
+
+.catalog__section7-slogan {
+    position: absolute;
+    top: 136px;
+    left: 30px;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.catalog__section7-discount {
+    position: absolute;
+    background: url("../img/15.svg") no-repeat;
+    top: 120px;
+    left: 442px;
+    width: 88px;
+    height: 88px;
+}
+
+.catalog__section8 {
+    grid-area: section8;
+    position: relative;
+    background: url("../img/2022.jpg") no-repeat;
+    background-size: contain;
+}
+
+.catalog__section8-slogan {
+    position: absolute;
+    z-index: 1;
+    top: 388px;
+    left: 90px;
+    color: #f91155;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.catalog__section8-rectangle {
+    position: absolute;
+    top: 358px;
+    left: 50px;
+    width: 643px;
+    height: 108px;
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+
+.catalog__section-wrapper-91011 {
+    grid-area: section91011;
+    display: grid;
+    gap: 26px 60px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "section9 section10"
+    "section9 section11";
+}
+
+.catalog__section9 {
+    grid-area: section9;
+    position: relative;
+    background: url("../img/woman.jpg") no-repeat;
+}
+
+.catalog__section9-discount {
+    position: absolute;
+    background: url("../img/55.svg") no-repeat;
+    top: 408px;
+    left: 137px;
+    width: 88px;
+    height: 88px;
+}
+
+.catalog__section10 {
+    grid-area: section10;
+    position: relative;
+    background: url("../img/chemistry.jpg") no-repeat;
+}
+
+.catalog__section10-discount {
+    position: absolute;
+    background: url("../img/25.svg");
+    top: 20px;
+    left: 20px;
+    width: 88px;
+    height: 88px;
+}
+
+.catalog__section10-slogan {
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    font-size: 30px;
+}
+
+.catalog__section11 {
+    grid-area: section11;
+    background: url("../img/balls.jpg") no-repeat;
+}
+
+@media (max-width: 1024px) {
+    .catalog {
+        gap: 22px 30px;
+        grid-template-columns: 464px 446px;
+        grid-template-rows: 314px 446px repeat(2, 194px) 440px;
+        grid-template-areas:
+    "section1 section1"
+    "section234 section5"
+    "section67 section91011"
+    "section67 section91011"
+    "section8 section8";
+    }
+
+    .catalog__section1-slogan {
+        position: absolute;
+        top: 80px;
+        left: 80px;
+        font-size: 40px;
+    }
+
+    .catalog__section1-title {
+        top: 195px;
+        left: 410px;
+    }
+
+    .catalog__section1-timing-wrapper {
+        top: 226px;
+        left: 315px;
+        display: flex;
+        column-gap: 20px;
+        font-size: 20px;
+    }
+
+    .catalog__section1_timing-num {
+        font-size: 40px;
+    }
+
+    .catalog__section-wrapper-234 {
+        grid-area: section234;
+        display: grid;
+        gap: 24px 60px;
+        grid-template-rows: 202px 220px;
+    }
+
+    .catalog__section2-slogan {
+        top: 101px;
+        left: 9px;
+        font-size: 20px;
+        line-height: 130%;
+    }
+
+    .catalog__section2-book {
+        font-size: 30px;
+    }
+
+    .catalog__section3-slogan {
+        top: 54px;
+        left: 9px;
+        font-size: 24px;
+    }
+
+    .catalog__section3-discount {
+        top: 104px;
+        left: 104px;
+        width: 88px;
+        height: 88px;
+    }
+
+    .catalog__section4-discount {
+        top: 17px;
+        left: 10px;
+    }
+
+    .catalog__section5 {
+        grid-area: section5;
+        position: relative;
+        width: 446px;
+        height: 446px;
+    }
+
+    .catalog__section5-slogan {
+        max-width: 354px;
+        top: 307px;
+        left: 45px;
+        font-size: 30px;
+    }
+
+    .catalog__section5-slogan--bigger {
+        font-size: 40px;
+        line-height: 130%;
+        font-weight: 700;
+    }
+
+    .catalog__section5-rectangle {
+        position: absolute;
+        top: 283px;
+        left: 20px;
+        width: 406px;
+        height: 143px;
+    }
+
+    .catalog__section-wrapper-67 {
+        row-gap: 22px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 194px);
+    }
+
+    .catalog__section6-slogan {
+        width: 255px;
+        font-size: 30px;
+        top: 89px;
+    }
+
+    .catalog__section7-slogan {
+        position: absolute;
+        top: 119px;
+        left: 30px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .catalog__section7-discount {
+        top: 96px;
+        left: 366px;
+    }
+
+    .catalog__section8-slogan {
+        top: 320px;
+        left: 77px;
+        font-size: 30px;
+    }
+
+    .catalog__section8-rectangle {
+        top: 296px;
+        left: 30px;
+        width: 513px;
+        height: 83px;
+    }
+
+    .catalog__section-wrapper-91011 {
+        gap: 18px 44px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+        "section9 section10"
+        "section9 section11";
+    }
+
+    .catalog__section9 {
+        grid-area: section9;
+        position: relative;
+        background-size: 206px 410px;
+    }
+
+    .catalog__section9-discount {
+        top: 312px;
+        left: 95px;
+    }
+
+    .catalog__section10-discount {
+        top: 10px;
+        left: 6px;
+    }
+
+    .catalog__section10-slogan {
+        position: absolute;
+        top: 151px;
+        left: 4px;
+        font-size: 20px;
+    }
+
+    .catalog__section11 {
+        grid-area: section11;
+        background: url("../img/balls.jpg");
+    }
+}
+
+@media (max-width: 768px) {
+    .catalog {
+        gap: 22px 20px;
+        grid-template-columns: 300px 380px;
+        grid-template-rows: 296px 573px 337px;
+        grid-template-areas:
+    "section1 section1"
+    "section23467 section591011"
+    "section8 section8";
+    }
+
+    .catalog__section1 {
+        align-self: start;
+        width: 700px;
+        height: 280px;
+    }
+
+    .catalog__section1-slogan {
+        top: 64px;
+        left: 80px;
+        font-size: 30px;
+    }
+
+    .catalog__section1-title {
+        top: 185px;
+        left: 303px;
+        font-size: 12px;
+    }
+
+    .catalog__section1-timing-wrapper {
+        top: 211px;
+        left: 235px;
+        display: flex;
+        column-gap: 10px;
+        font-size: 16px;
+    }
+
+    .catalog__section1_timing-num {
+        font-size: 30px;
+    }
+
+    .catalog__section-wrapper-234 {
+        grid-area: section23467;
+        align-self: start;
+        display: grid;
+        gap: 22px 40px;
+        grid-template-rows: 130px 126px;
+    }
+
+    .catalog__section2-slogan {
+        top: 43px;
+        left: 10px;
+        font-size: 20px;
+        line-height: 110%;
+    }
+
+    .catalog__section2-book {
+        font-size: 26px;
+    }
+
+    .catalog__section3-slogan {
+        top: 15px;
+        left: 5px;
+        font-size: 16px;
+    }
+
+    .catalog__section3-discount {
+        top: 70px;
+        left: 70px;
+        width: 50px;
+        height: 50px;
+        background-size: contain;
+    }
+
+    .catalog__section4 {
+        background-size: contain;
+    }
+
+    .catalog__section4-discount {
+        top: 10px;
+        left: 10px;
+        width: 50px;
+        height: 50px;
+        background-size: contain;
+    }
+
+    .catalog__section5 {
+        grid-area: section591011;
+        justify-self: stretch;
+        align-self: start;
+        position: relative;
+        width: 380px;
+        height: 380px;
+    }
+
+    .catalog__section5-slogan {
+        position: absolute;
+        z-index: 1;
+        top: 321px;
+        left: 36px;
+        font-size: 16px;
+    }
+
+    .catalog__section5-slogan--bigger {
+        font-size: 26px;
+    }
+
+    .catalog__section5-rectangle {
+        top: 309px;
+        left: 10px;
+        width: 360px;
+        height: 61px;
+        border-radius: 12px;
+    }
+
+    .catalog__section-wrapper-67 {
+        grid-area: section23467;
+        align-self: end;
+        row-gap: 22px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 126px);
+    }
+
+    .catalog__section6-slogan {
+        width: 136px;
+        font-size: 16px;
+        top: 70px;
+        left: 21px;
+    }
+
+    .catalog__section7-slogan {
+        top: 87px;
+        left: 21px;
+        font-size: 16px;
+    }
+
+    .catalog__section7-discount {
+        top: 66px;
+        left: 240px;
+        width: 50px;
+        height: 50px;
+        background-size: contain;
+    }
+
+    .catalog__section8 {
+        grid-area: section8;
+        position: relative;
+        background: url("../img/2022new.jpg") no-repeat;
+        background-size: cover;
+    }
+
+    .catalog__section8-slogan {
+        top: 265px;
+        left: 60px;
+        font-size: 20px;
+    }
+
+    .catalog__section8-rectangle {
+        top: 243px;
+        left: 26px;
+        width: 347px;
+        height: 68px;
+        border-radius: 12px;
+    }
+
+    .catalog__section-wrapper-91011 {
+        grid-area: section591011;
+        align-self: end;
+        display: grid;
+        gap: 8px 21px;
+        grid-template-columns: 253px 82px;
+        grid-template-rows: repeat(2, 83px);
+        grid-template-areas:
+        "section9 section10"
+        "section9 section11";
+    }
+
+    .catalog__section9 {
+        background: url(../img/woman1.jpg) no-repeat;
+    }
+
+    .catalog__section9-discount {
+        background-size: contain;
+        top: 111px;
+        left: 193px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .catalog__section10 {
+        background-size: contain;
+    }
+
+    .catalog__section10-discount {
+        background-size: contain;
+        top: 3px;
+        left: 3px;
+        width: 36px;
+        height: 36px;
+    }
+
+    .catalog__section10-slogan {
+        top: 44px;
+        left: 3px;
+        font-size: 12px;
+    }
+
+    .catalog__section11 {
+        background-size: contain;
+    }
+}
+
+@media (max-width: 320px) {
+    .catalog {
+        column-gap: 20px;
+        grid-template-columns: 280px;
+        grid-template-rows: 340px 268px 280px 254px 280px 123px;
+        grid-template-areas:
+    "section1"
+    "section234"
+    "section5"
+    "section67"
+    "section91011"
+    "section8";
+    }
+
+    .catalog__section1 {
+        width: 280px;
+        height: 340px;
+        background: url("../img/banner320.jpg") no-repeat;
+        background-size: cover;
+    }
+
+    .catalog__section1-slogan {
+        top: 50px;
+        left: 29px;
+        font-size: 22px;
+    }
+
+    .catalog__section1-title {
+        top: 268px;
+        left: 110px;
+        font-size: 8px;
+    }
+
+    .catalog__section1-timing-wrapper {
+        top: 284px;
+        left: 57px;
+        display: flex;
+        column-gap: 8px;
+        font-size: 12px;
+    }
+
+    .catalog__section1_timing-num {
+        font-size: 20px;
+    }
+
+    .catalog__section-wrapper-234 {
+        grid-area: section234;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 130px 118px;
+        grid-template-areas:
+    "section2 section3"
+    "section4 section4" ;
+    }
+
+    .catalog__section2-slogan {
+        max-width: 65px;
+        top: 76px;
+        left: 10px;
+        font-size: 12px;
+    }
+
+    .catalog__section2-book {
+        font-size: 16px;
+    }
+
+    .catalog__section3-slogan {
+        top: 28px;
+        left: 10px;
+        font-size: 12px;
+    }
+
+    .catalog__section3-discount {
+        position: absolute;
+        background: url("../img/25.svg") no-repeat;
+        top: 75px;
+        left: 75px;
+        background-size: contain;
+    }
+
+    .catalog__section4 {
+        background-size: contain;
+    }
+
+    .catalog__section4-discount {
+        top: 5px;
+        left: 5px;
+    }
+
+    .catalog__section5 {
+        grid-area: section5;
+        width: 280px;
+        height: 280px;
+    }
+
+    .catalog__section5-slogan {
+        top: 241px;
+        left: 35px;
+        font-size: 12px;
+    }
+
+    .catalog__section5-slogan--bigger {
+        font-size: 16px;
+    }
+
+    .catalog__section5-rectangle {
+        top: 234px;
+        left: 10px;
+        width: 260px;
+        height: 36px;
+
+        border-radius: 8px;
+    }
+
+    .catalog__section-wrapper-67 {
+        grid-area: section67;
+        display: grid;
+        row-gap: 18px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 118px);
+        grid-template-areas:
+        "section6"
+        "section7";
+    }
+
+    .catalog__section6-slogan {
+        width: 181px;
+        font-size: 12px;
+        top: 88px;
+        left: 10px;
+    }
+
+    .catalog__section7-slogan {
+        top: 88px;
+        left: 10px;
+        font-size: 12px;
+    }
+
+    .catalog__section7-discount {
+        top: 63px;
+        left: 225px;
+    }
+
+    .catalog__section8-slogan {
+        top: 90px;
+        left: 56px;
+        font-size: 12px;
+    }
+
+    .catalog__section8-rectangle {
+        top: 83px;
+        left: 15px;
+        width: 250px;
+        height: 30px;
+        border-radius: 6px;
+    }
+
+    .catalog__section-wrapper-91011 {
+        grid-area: section91011;
+        display: grid;
+        gap: 26px 20px;
+        grid-template-columns: repeat(2, 130px);
+        grid-template-rows: repeat(2, 130px);
+        grid-template-areas:
+    "section9 section10"
+    "section9 section11";
+    }
+
+    .catalog__section9 {
+        background: url("../img/woman.jpg") no-repeat;
+        background-size: cover;
+    }
+
+    .catalog__section9-discount {
+        top: 220px;
+        left: 70px;
+    }
+
+    .catalog__section10-discount {
+        top: 5px;
+        left: 5px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .catalog__section10-slogan {
+        top: 106px;
+        left: 9px;
+        font-size: 12px;
+    }
+
+    .catalog__section11 {
+        background-size: contain;
+    }
+}
