@@ -24,34 +24,6 @@
     background-position: center;
 }
 
-.catalog__section1-slogan {
-    position: absolute;
-    top: 145px;
-    left: 112px;
-    font-weight: 700;
-    font-size: 70px;
-}
-
-.catalog__section1-title {
-    position: absolute;
-    top: 336px;
-    left: 823px;
-    font-size: 16px;
-}
-
-.catalog__section1-timing-wrapper {
-    position: absolute;
-    top: 362px;
-    left: 649px;
-    display: flex;
-    column-gap: 30px;
-    font-size: 32px;
-}
-
-.catalog__section1_timing-num {
-    font-size: 60px;
-}
-
 .catalog__section-wrapper-234 {
     grid-area: section234;
     display: grid;
@@ -302,30 +274,6 @@
     "section8 section8";
     }
 
-    .catalog__section1-slogan {
-        position: absolute;
-        top: 80px;
-        left: 80px;
-        font-size: 40px;
-    }
-
-    .catalog__section1-title {
-        top: 195px;
-        left: 410px;
-    }
-
-    .catalog__section1-timing-wrapper {
-        top: 226px;
-        left: 315px;
-        display: flex;
-        column-gap: 20px;
-        font-size: 20px;
-    }
-
-    .catalog__section1_timing-num {
-        font-size: 40px;
-    }
-
     .catalog__section-wrapper-234 {
         grid-area: section234;
         display: grid;
@@ -481,30 +429,6 @@
         align-self: start;
         width: 700px;
         height: 280px;
-    }
-
-    .catalog__section1-slogan {
-        top: 64px;
-        left: 80px;
-        font-size: 30px;
-    }
-
-    .catalog__section1-title {
-        top: 185px;
-        left: 303px;
-        font-size: 12px;
-    }
-
-    .catalog__section1-timing-wrapper {
-        top: 211px;
-        left: 235px;
-        display: flex;
-        column-gap: 10px;
-        font-size: 16px;
-    }
-
-    .catalog__section1_timing-num {
-        font-size: 30px;
     }
 
     .catalog__section-wrapper-234 {
@@ -697,30 +621,6 @@
         height: 340px;
         background: url("../img/banner320.jpg") no-repeat;
         background-size: cover;
-    }
-
-    .catalog__section1-slogan {
-        top: 50px;
-        left: 29px;
-        font-size: 22px;
-    }
-
-    .catalog__section1-title {
-        top: 268px;
-        left: 110px;
-        font-size: 8px;
-    }
-
-    .catalog__section1-timing-wrapper {
-        top: 284px;
-        left: 57px;
-        display: flex;
-        column-gap: 8px;
-        font-size: 12px;
-    }
-
-    .catalog__section1_timing-num {
-        font-size: 20px;
     }
 
     .catalog__section-wrapper-234 {

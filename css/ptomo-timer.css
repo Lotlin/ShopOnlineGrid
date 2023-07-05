@@ -1,0 +1,106 @@
+.ptomo-timer__slogan {
+  position: absolute;
+  top: 145px;
+  left: 112px;
+  font-weight: 700;
+  font-size: 70px;
+}
+
+.ptomo-timer__title {
+  position: absolute;
+  top: 336px;
+  left: 823px;
+  font-size: 16px;
+}
+
+.ptomo-timer__items-wrapper {
+  position: absolute;
+  top: 362px;
+  left: 649px;
+  display: flex;
+  column-gap: 30px;
+  font-size: 32px;
+}
+
+.promo-timer__numbers {
+  font-size: 60px;
+}
+
+@media (max-width: 1024px) {
+  .ptomo-timer__slogan {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    font-size: 40px;
+  }
+
+  .ptomo-timer__title {
+    top: 195px;
+    left: 410px;
+  }
+
+  .ptomo-timer__items-wrapper {
+    top: 226px;
+    left: 315px;
+    display: flex;
+    column-gap: 20px;
+    font-size: 20px;
+  }
+
+  .ptomo-timer__numbers {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ptomo-timer__slogan {
+    top: 64px;
+    left: 80px;
+    font-size: 30px;
+  }
+
+  .ptomo-timer__title {
+      top: 185px;
+      left: 303px;
+      font-size: 12px;
+  }
+
+  .ptomo-timer__items-wrapper {
+    top: 211px;
+    left: 235px;
+    display: flex;
+    column-gap: 10px;
+    font-size: 16px;
+  }
+
+  .ptomo-timer__numbers {
+    font-size: 30px;
+  }
+}
+
+  @media (max-width: 320px) {
+    .ptomo-timer__slogan {
+      top: 50px;
+      left: 29px;
+      font-size: 22px;
+  }
+
+  .ptomo-timer__title {
+      top: 268px;
+      left: 110px;
+      font-size: 8px;
+  }
+
+  .ptomo-timer__items-wrapper {
+    top: 284px;
+    left: 57px;
+    display: flex;
+    column-gap: 8px;
+    font-size: 12px;
+  }
+
+  .ptomo-timer__numbers {
+    font-size: 20px;
+  }
+
+}
